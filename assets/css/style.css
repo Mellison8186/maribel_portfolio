@@ -54,6 +54,16 @@ a {
     background-image: url("../images/hero.jpg");
     background-size: cover;
     background-position: center;
+    position: relative;
+}
+
+.hero img {
+    width: 20%;
+    height: 50%;
+    position: absolute;
+    bottom: 25%;
+    left: 20px;
+    z-index: 1;
 }
 /* END HERO STYLES */
 
