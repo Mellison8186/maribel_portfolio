@@ -117,8 +117,8 @@ a {
 /* MY WORK STYLE */
 .work-container {
     display: grid;
-    grid-template-columns: 20% 40% 40%;
-    grid-template-rows: 70% 30%;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 60% 40%;
     margin: 0 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #F5F5F2;
@@ -134,8 +134,15 @@ a {
 }
 
 /* MY WORK IMAGES */
+img {
+    height: 100%;
+    width: 100%;
+    border: 2px solid #688DB7;
+    position: relative;
+}
+
 .run-buddy-container {
-    grid-area: 1 / 2 / 1 / span 2;
+    grid-area: 1 / 2 / 1 / span 3;
     border-left: 5px solid #9AB8C6;
     padding: 0 0 20px 20px;
     position: relative;
@@ -157,16 +164,12 @@ a {
 
 }
 
-.run-buddy-container img:hover {
+.run-buddy-container img:hover,
+.horiseon-container img:hover,
+.robot-container img:hover,
+.planetarium-party-container img:hover {
     opacity: 80%;
     cursor: pointer;
-}
-
-img {
-    height: 100%;
-    width: 100%;
-    border: 2px solid #688DB7;
-    position: relative;
 }
 
 .horiseon-container {
@@ -198,11 +201,6 @@ img {
     margin: 0 10px 20px 20px;
 }
 
-.horiseon-container img:hover {
-    opacity: 80%;
-    cursor: pointer;
-}
-
 .robot-container {
     height: 100%;
     width: 100%;
@@ -213,11 +211,6 @@ img {
 .robot-container img {
     height: 100%;
     width: 100%;
-}
-
-.robot-container img:hover {
-    opacity: 80%;
-    cursor: pointer;
 }
 
 .robot-container h3 {
@@ -232,6 +225,32 @@ img {
     padding: 15px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+.planetarium-party-container {
+    height: 100%;
+    width: 100%;
+    margin: 0 10px 20px 0;
+    position: relative;
+}
+
+.planetarium-party-container h3 {
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #688DB7;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10%;
+    z-index: 1;
+    background-color: #F5F5F2;
+    padding: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.planetarium-party-container img {
+    height: 100%;
+    width: 100%;
 }
 
 /* CONTACT INFO ROW */
