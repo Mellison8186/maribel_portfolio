@@ -7,8 +7,8 @@ My professional profile to showcase my web development projects.
 * HTML
 * CSS
 
-## Mockup
-<img width="816" alt="Screen Shot 2021-03-21 at 9 52 04 PM" src="https://user-images.githubusercontent.com/77599753/111942067-caa99580-8a8f-11eb-8e19-5eaf3a7db9a6.png">
+## Portfolio Home Page Image
+[Maribel Portfolio.pdf](https://github.com/Mellison8186/maribel_portfolio/files/6498543/Maribel.Portfolio.pdf)
 
 ## Website
 https://mellison8186.github.io/maribel_portfolio/
