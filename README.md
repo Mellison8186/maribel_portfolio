@@ -8,7 +8,7 @@ My professional profile to showcase my web development projects.
 * CSS
 
 ## Portfolio Home Page Image
-[Maribel Portfolio.pdf](https://github.com/Mellison8186/maribel_portfolio/files/6498543/Maribel.Portfolio.pdf)
+![Portfolio](https://user-images.githubusercontent.com/77599753/118600006-3abd5a80-b765-11eb-894f-5e46959ce03d.png)
 
 ## Website
 https://mellison8186.github.io/maribel_portfolio/
